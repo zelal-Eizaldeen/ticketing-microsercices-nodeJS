@@ -13,7 +13,6 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.RequestValidationError = void 0;
 var custom_error_1 = require("./custom-error");
 var RequestValidationError = /** @class */ (function (_super) {
     __extends(RequestValidationError, _super);

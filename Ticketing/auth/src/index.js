@@ -47,6 +47,7 @@ var start = function () { return __awaiter(void 0, void 0, void 0, function () {
         switch (_a.label) {
             case 0:
                 if (!process.env.JWT_KEY) {
+                    console.log(process.env.JWT_KEY);
                     throw new Error('JWT_KEY must be defined');
                 }
                 if (!process.env.MONGO_URI) {
